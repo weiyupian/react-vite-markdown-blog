@@ -1,0 +1,26 @@
+.recommended-posts {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.recommended-post-item {
+  line-height: 16px;
+  padding-bottom: 10px;
+}
+
+.recommended-post-link {
+  text-decoration: none;
+  color: rgb(187, 92, 92);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.recommended-post-link:hover {
+  text-decoration: underline;
+}

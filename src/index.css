@@ -1,0 +1,48 @@
+:root {
+  /* --- 🎨 品牌与状态色 (Brand & States) --- */
+  --p-color: #9D0208;         /* 主色：你喜欢的深红 */
+  --p-hover: #cc0000;          /* 悬停态：稍浅的红 */
+  --s-color: #1a1a1a;          /* 次色：深灰/黑 */
+  
+  /* --- ⚪️ 亮色模式：背景与文字 (Light Mode) --- */
+  --bg-page: #ffffff;          /* 页面大背景 */
+  --bg-card: #ffffff;          /* 卡片背景 */
+  --bg-soft: #f8f9fa;          /* 引用块、代码块背景 */
+  
+  --text-main: #2d3436;        /* 正文文字：深灰（比纯黑更护眼） */
+  --text-bold: #000000;        /* 标题文字：纯黑 */
+  --text-muted: #636e72;       /* 次要文字：灰色（日期、分类等） */
+  
+  --border-color: #e2e8f0;     /* 全局边框色 */
+
+  /* --- 📏 间距规范 (Spacing Scale) --- */
+  --sp-xs: 4px;
+  --sp-sm: 8px;
+  --sp-md: 16px;
+  --sp-lg: 24px;
+  --sp-xl: 48px;
+
+  /* --- 🔲 圆角与阴影 (Effects) --- */
+  --radius: 8px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+
+/* --- 🌙 黑暗模式变量覆盖 (Dark Mode) --- */
+.dark {
+  --bg-page: #121212;
+  --bg-card: #1e1e1e;
+  --bg-soft: #2d2d2d;
+  
+  --text-main: #e0e0e0;
+  --text-bold: #ffffff;
+  --text-muted: #a0a0a0;
+  
+  --border-color: #333333;
+  --shadow-md: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+body {
+  margin: 0;
+  margin-top: var(--sp-md);
+}

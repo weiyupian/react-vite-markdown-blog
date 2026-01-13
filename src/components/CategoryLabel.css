@@ -1,0 +1,29 @@
+.category-label-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--sp-lg);
+  margin-bottom: var(--sp-lg);
+  padding-left: 20px;
+}
+
+.category-label {
+  flex: 1;
+  height: 60px;
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--p-color);
+  white-space: nowrap;
+}
+
+.blank {
+  flex: 1;
+}
+
+@media (max-width:768px) {
+  .category-label-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+}

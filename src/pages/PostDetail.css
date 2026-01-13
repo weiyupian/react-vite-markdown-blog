@@ -1,0 +1,91 @@
+.post-detail-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px 10px;
+}
+
+@media (max-width: 640px) {
+  .post-detail-wrapper {
+    flex-direction: column;
+    align-items: end;
+  }
+}
+
+.post-content {
+  flex: 7;
+}
+
+.post-grid-container {
+  flex: 3;
+
+}
+
+/* 文章主标题（通常是 h1） */
+.post-detail-wrapper h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+/* 二级标题（Markdown 中的 ##） */
+.post-detail-wrapper h2 {
+  font-size: 1.6rem;
+  margin-top: 1.8em; /* 标题上方留出更多空间，区分段落 */
+  margin-bottom: 0.8em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid #f0f0f0; 
+  color: #333;
+}
+
+/* 正文文本 */
+.post-detail-wrapper p {
+  margin-bottom: 1.5em;
+  word-wrap: break-word;
+}
+
+/* 图片基础样式 */
+.post-detail-wrapper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto 0.5rem; /* 上边距大，下边距留给小文本 */
+  border-radius: 8px;
+}
+
+.post-detail-wrapper img:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* 淡淡的阴影更显精致 */
+}
+
+/* 图片下方的小文本（通常对应 Markdown 的斜体 *text* 或紧跟的 p） */
+/* 这里假设你在图片下一行紧跟了一个斜体文本作为注释 */
+.post-detail-wrapper img + em,
+.post-detail-wrapper img + span,
+.post-detail-wrapper p:has(img) + p {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 2rem;
+}
+
+.post-detail-wrapper blockquote {
+  margin: 24px 0;
+  padding: 1px 24px;
+  background-color: #f9f9f9; /* 极浅灰色背景 */
+  border-left: 4px solid #a00000; /* 使用你喜欢的深红色作为边框 */
+  color: #555; /* 字体颜色稍微调浅，增加层次感 */
+  font-style: italic; /* 斜体增加引用感 */
+  line-height: 1.6;
+}
+
+.post-detail-wrapper a {
+  text-decoration: none;
+  color: rgb(205, 17, 17);
+}
+
+.post-detail-wrapper a:hover {
+  text-decoration: underline;
+}
+

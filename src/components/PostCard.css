@@ -1,0 +1,109 @@
+.post-card {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.post-card.compact {
+  flex-direction: column;
+  gap: 0;
+}
+
+@media (max-width: 640px) {
+  .post-card {
+    flex-direction: column;
+  }
+}
+
+.post-image-wrapper {
+  flex: 1;
+  width: 100%;
+
+}
+
+.post-image {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+}
+
+.post-card.compact .post-image {
+  border-radius: 8px;
+}
+
+.post-content-wrapper {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 480px) {
+  .post-title {
+    font-size: 18px;
+    /* 手机端标题稍微小一点 */
+  }
+}
+
+.post-title {
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.post-card.compact .post-title {
+  font-size: 18px;
+}
+
+.post-title-link {
+  color: black;
+  text-decoration: none;
+}
+
+.post-title-link:hover {
+  color: var(--s-color);
+}
+
+.post-card.compact .post-title-link {
+  color: rgb(29, 29, 29);
+}
+
+.post-date {
+  color: var(--text-muted);
+  font-size: 12px;
+  margin-top: -2px;
+}
+
+.post-card.compact .post-date {
+  display: none;
+}
+
+.post-excerpt {
+  font-size: 14px;
+}
+
+.post-card.compact .post-excerpt {
+  color: rgb(115, 115, 115);
+}
+
+.read-more-link {
+  color: rgb(161, 29, 29);
+  text-decoration: none;
+  font-weight: bold;
+  text-align: right;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+}
+
+.post-card.compact .read-more-link {
+  color: black;
+  font-size: 11.5px;
+  text-align: left;
+}
+
+.post-card.compact .read-more-link:hover {
+  color: rgb(161, 29, 29);
+  text-decoration: none;
+}
