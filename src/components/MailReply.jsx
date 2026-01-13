@@ -1,5 +1,5 @@
 export function MailReply({ postTitle }) {
-  const email = "weiyupian@gmai.com";
+  const email = "weiyupian@gmail.com";
   const subject = encodeURIComponent(`回复博文：${postTitle}`);
   const body = encodeURIComponent("你好，我对这篇文章有些看法：\n\n");
 

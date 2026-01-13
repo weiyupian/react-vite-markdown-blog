@@ -1,16 +1,39 @@
-# React + Vite
+# Minimalist React Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A digital garden focused on the ultimate minimalist reading experience. Built with React 19 and Vite, it utilizes a Markdown-driven workflow to return to the essence of writing.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Core Framework** : React 18 (Functional Components & Hooks)
+* **Build Tool** : Vite (For lightning-fast development and optimized bundling)
+* **Routing** : React Router v6 (Featuring dynamic routing and active-link navigation)
+* **Content Parsing** : React-Markdown (Custom component rendering for MD elements)
+* **Styling** : Modern CSS3 (Global design system built with** **`:root` variables)
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **📄 Markdown Driven** : Seamlessly renders articles from Markdown files with integrated support for responsive images and code snippets.
+* **🎨 Design System Architecture** : A cohesive visual language established through CSS variables, ensuring uniform spacing, typography, and color consistency across the entire site.
+* **📬 Elegant Feedback Loop** : A lightweight** **`MailReply` component leveraging the** **`mailto` protocol, allowing readers to provide feedback with zero friction.
+* **⚡ Performance Optimized** :
+* Single Page Application (SPA) architecture for millisecond-level page transitions.
+* Automated** **`ScrollToTop` logic to maintain reading continuity.
+* Optimized static asset resolution for Markdown-embedded resources.
 
-## Expanding the ESLint configuration
+## 📖 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```plaintext
+src/
+├── components/      # Reusable UI components (Header, MailReply, etc.)
+├── data/            # Structured content & post metadata (posts.js)
+├── pages/           # Page-level view components (HomePage, PostDetail)
+├── assets/          # Static assets (Images, Global CSS)
+└── App.jsx          # Root component & Route configuration
+```
+
+## 🚀 Getting Started
+
+1. **Clone the Repo** :** **`git clone https://github.com/your-username/repo-name.git`
+2. **Install Dependencies** :** **`npm install`
+3. **Launch Dev Server** :** **`npm run dev`
+4. **Production Build** :** **`npm run build`
