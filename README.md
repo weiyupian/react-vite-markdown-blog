@@ -8,16 +8,16 @@ A digital garden focused on the ultimate minimalist reading experience. Built wi
 * **Build Tool** : Vite (For lightning-fast development and optimized bundling)
 * **Routing** : React Router v6 (Featuring dynamic routing and active-link navigation)
 * **Content Parsing** : React-Markdown (Custom component rendering for MD elements)
-* **Styling** : Modern CSS3 (Global design system built with** **`:root` variables)
+* **Styling** : Modern CSS3 (Global design system built with `:root` variables)
 
 ## ✨ Key Features
 
 * **📄 Markdown Driven** : Seamlessly renders articles from Markdown files with integrated support for responsive images and code snippets.
 * **🎨 Design System Architecture** : A cohesive visual language established through CSS variables, ensuring uniform spacing, typography, and color consistency across the entire site.
-* **📬 Elegant Feedback Loop** : A lightweight** **`MailReply` component leveraging the** **`mailto` protocol, allowing readers to provide feedback with zero friction.
+* **📬 Elegant Feedback Loop** : A lightweight `MailReply` component leveraging the `mailto` protocol, allowing readers to provide feedback with zero friction.
 * **⚡ Performance Optimized** :
 * Single Page Application (SPA) architecture for millisecond-level page transitions.
-* Automated** **`ScrollToTop` logic to maintain reading continuity.
+* Automated `ScrollToTop` logic to maintain reading continuity.
 * Optimized static asset resolution for Markdown-embedded resources.
 
 ## 📖 Project Structure
