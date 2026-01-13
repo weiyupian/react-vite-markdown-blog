@@ -33,7 +33,7 @@ src/
 
 ## 🚀 Getting Started
 
-1. **Clone the Repo** :** **`git clone https://github.com/your-username/repo-name.git`
-2. **Install Dependencies** :** **`npm install`
-3. **Launch Dev Server** :** **`npm run dev`
-4. **Production Build** :** **`npm run build`
+1. **Clone the Repo** :`git clone https://github.com/weiyupian/react-vite-markdown-blog.git`
+2. **Install Dependencies** :`npm install`
+3. **Launch Dev Server** :`npm run dev`
+4. **Production Build** :`npm run build`
