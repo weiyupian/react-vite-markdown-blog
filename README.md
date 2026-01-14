@@ -6,7 +6,7 @@ A digital garden focused on the ultimate minimalist reading experience. Built wi
 
 ## 🛠️ Tech Stack
 
-* **Core Framework** : React 18 (Functional Components & Hooks)
+* **Core Framework** : React 19 (Functional Components & Hooks)
 * **Build Tool** : Vite (For lightning-fast development and optimized bundling)
 * **Routing** : React Router v6 (Featuring dynamic routing and active-link navigation)
 * **Content Parsing** : React-Markdown (Custom component rendering for MD elements)
