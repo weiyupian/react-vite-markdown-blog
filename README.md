@@ -1,5 +1,7 @@
 # Minimalist React Blog
 
+![Vercel Status](https://vercelbadge.vercel.app/api/weiyupian/react-vite-markdown-blog) [![Visit Blog](https://img.shields.io/badge/Visit%20Blog-Online-brightgreen)](https://react-vite-markdown-blog.vercel.app)
+
 A digital garden focused on the ultimate minimalist reading experience. Built with React 19 and Vite, it utilizes a Markdown-driven workflow to return to the essence of writing.
 
 ## 🛠️ Tech Stack
