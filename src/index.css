@@ -1,47 +1,64 @@
-:root {
-  /* --- 🎨 品牌与状态色 (Brand & States) --- */
-  --p-color: #9D0208;         /* 主色：你喜欢的深红 */
-  --p-hover: #cc0000;          /* 悬停态：稍浅的红 */
-  --s-color: #1a1a1a;          /* 次色：深灰/黑 */
-  
-  /* --- ⚪️ 亮色模式：背景与文字 (Light Mode) --- */
-  --bg-page: #ffffff;          /* 页面大背景 */
-  --bg-card: #ffffff;          /* 卡片背景 */
-  --bg-soft: #f8f9fa;          /* 引用块、代码块背景 */
-  
-  --text-main: #2d3436;        /* 正文文字：深灰（比纯黑更护眼） */
-  --text-bold: #000000;        /* 标题文字：纯黑 */
-  --text-muted: #636e72;       /* 次要文字：灰色（日期、分类等） */
-  
-  --border-color: #e2e8f0;     /* 全局边框色 */
+/**
+ * 文件职责：
+ * 1. 定义全站通用设计变量（颜色、间距、阴影等）。
+ * 2. 提供浅色/深色两套主题变量。
+ * 3. 设置基础页面样式（例如 body 外边距）。
+ *
+ * 依赖模块：
+ * - main.tsx 在应用启动时会全局引入本文件。
+ *
+ * 谁会使用它：
+ * - 所有 CSS / CSS Modules 文件都可以复用这里的变量。
+ */
 
-  /* --- 📏 间距规范 (Spacing Scale) --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* ===== 品牌色与文本色 ===== */
+  --p-color: #9d0208;          /* 主色 */
+  --p-hover: #cc0000;          /* 主色悬停态 */
+  --s-color: #1a1a1a;          /* 次要深色 */
+
+  --text-main: #2d3436;        /* 正文文字 */
+  --text-bold: #000000;        /* 标题文字 */
+  --text-muted: #636e72;       /* 次要文字 */
+
+  /* ===== 间距尺寸 ===== */
   --sp-xs: 4px;
   --sp-sm: 8px;
   --sp-md: 16px;
   --sp-lg: 24px;
-  --sp-xl: 48px;
+  --sp-xl: 32px;
 
-  /* --- 🔲 圆角与阴影 (Effects) --- */
+  /* ===== 浅色主题背景 ===== */
+  --bg-page: #ffffff;          /* 页面背景 */
+  --bg-card: #ffffff;          /* 卡片背景 */
+  --bg-soft: #f8f9fa;          /* 弱对比背景（如引用块） */
+  --border-color: #e2e8f0;     /* 边框颜色 */
+
+  /* ===== 圆角与阴影 ===== */
   --radius: 8px;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
-  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-/* --- 🌙 黑暗模式变量覆盖 (Dark Mode) --- */
+/* 深色主题变量覆盖：给根节点加 .dark 类后生效 */
 .dark {
   --bg-page: #121212;
   --bg-card: #1e1e1e;
   --bg-soft: #2d2d2d;
-  
+
   --text-main: #e0e0e0;
   --text-bold: #ffffff;
   --text-muted: #a0a0a0;
-  
+
   --border-color: #333333;
-  --shadow-md: 0 4px 10px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* 页面基础样式 */
 body {
   margin: 0;
   margin-top: var(--sp-md);

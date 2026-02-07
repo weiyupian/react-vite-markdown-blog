@@ -1,3 +1,13 @@
+---
+title: Amazon 跨境电商运营攻略：2026 年最新规则
+slug: amazon-2026
+category: ecommerce
+date: 2026-01-06
+cover: Amazon 跨境电商运营攻略：2026 年最新规则.jpg
+excerpt: 聚焦2026年 Amazon 平台规则、Listing 优化和 PPC 广告策略。
+isRecommended: true
+---
+
 # Amazon 跨境电商运营攻略：2026 年最新规则
 
 ## Amazon 的核心优势

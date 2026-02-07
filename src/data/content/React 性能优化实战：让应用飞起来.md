@@ -1,3 +1,12 @@
+---
+title: React 性能优化实战：让应用飞起来
+slug: react-performance
+category: programming
+date: 2026-01-03
+cover: React 性能优化实战：让应用飞起来.png
+excerpt: 分析不必要重渲染和大 bundle 等问题，提供 React.memo、useMemo、懒加载等实用优化技巧。
+isRecommended: true
+---
 
 # React 性能优化实战：让应用飞起来
 

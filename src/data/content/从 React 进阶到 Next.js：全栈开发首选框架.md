@@ -1,3 +1,13 @@
+---
+title: 从 React 进阶到 Next.js：全栈开发首选框架
+slug: react-to-nextjs
+category: programming
+date: 2026-01-02
+cover: 从 React 进阶到 Next.js：全栈开发首选框架.png
+excerpt: Next.js 是基于 React 的全栈框架，提供 SSR、SSG 和 App Router 等强大特性，大幅提升性能和 SEO。
+isRecommended: true
+---
+
 # 从 React 进阶到 Next.js：全栈开发首选框架
 
 ## Next.js 是什么

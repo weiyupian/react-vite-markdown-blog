@@ -1,4 +1,14 @@
 
+---
+title: 如何高效学习 React：2026 年实用指南
+slug: how-to-learn-react
+category: programming
+date: 2026-01-01
+cover: 如何高效学习 React：2026 年实用指南.webp
+excerpt: 这篇文章为 React 新手提供2026年实用学习路径，强调先打牢 JavaScript 基础，从官方文档起步，掌握组件化和 Hooks 核心概念。
+isRecommended: true
+---
+
 # 如何高效学习 React：2026 年实用指南
 
 ## 为什么选择 React

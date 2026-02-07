@@ -1,3 +1,13 @@
+---
+title: Shopee 出海指南：布局东南亚市场
+slug: shopee-sea
+category: ecommerce
+date: 2026-01-06
+cover: Shopee 出海指南：布局东南亚市场.jpg
+excerpt: 详解 Shopee 开店流程、选品方向与东南亚市场运营技巧。
+isRecommended: true
+---
+
 # Shopee 出海指南：布局东南亚市场
 
 ## 东南亚电商市场潜力

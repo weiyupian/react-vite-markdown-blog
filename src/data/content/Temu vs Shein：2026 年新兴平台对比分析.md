@@ -1,3 +1,13 @@
+---
+title: Temu vs Shein：2026 年新兴平台对比分析
+slug: temu-vs-shein
+category: ecommerce
+date: 2026-01-07
+cover: Temu vs Shein：2026 年新兴平台对比分析.png
+excerpt: 对比两大平台的商业模式、流量策略与政策风险。
+isRecommended: true
+---
+
 # Temu vs Shein：2026 年新兴平台对比分析
 
 ## 新兴平台崛起

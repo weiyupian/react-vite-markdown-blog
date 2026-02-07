@@ -1,3 +1,12 @@
+---
+title: React 状态管理选型：Zustand vs Redux Toolkit
+slug: zustand-vs-rtk
+category: programming
+date: 2026-01-04
+cover: React 状态管理选型：Zustand vs Redux Toolkit.png
+excerpt: 对比 Redux Toolkit 与 Zustand 的使用场景，给出不同规模项目的选型建议。
+isRecommended: true
+---
 
 # React 状态管理选型：Zustand vs Redux Toolkit
 

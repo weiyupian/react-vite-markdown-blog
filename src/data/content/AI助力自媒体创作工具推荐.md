@@ -1,5 +1,14 @@
-# AI助力自媒体创作工具推荐
+---
+title: AI助力自媒体创作工具推荐
+slug: media-ai-tools
+category: media
+date: 2026-01-09
+cover: AI助力自媒体创作工具推荐.jpg
+excerpt: 推荐 AI 写作、灵感生成与图片工具，提升内容生产力。
+isRecommended: true
+---
 
+# AI助力自媒体创作工具推荐
 
 ## AI工具的革命性影响
 
